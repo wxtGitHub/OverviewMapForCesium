@@ -4,9 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>drawForCesium</title>
-    <link href="lib/cesium/Widgets/widgets.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../Build/Cesium/Widgets/widgets.css"> 
     <link href="lib/leaflet/leaflet.css" rel="stylesheet" />
     <link href="lib/leaflet/Control.MiniMap.css" rel="stylesheet" />
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+   <script type="text/javascript" src="../../Build/Cesium/Cesium.js"></script>
+    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="lib/leaflet/CesiumOverviewMapControl.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <style>
         html,
         body,
@@ -31,11 +36,6 @@
             display: none;
         }
     </style>
-    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/cesium/Cesium.js"></script>
-    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
-    <script type="text/javascript" src="lib/leaflet/CesiumOverviewMapControl.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body oncontextmenu="return false;">
